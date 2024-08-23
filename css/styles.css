@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Estilo global para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+.navbar {
+    background-color: rgb(117, 183, 195);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: black !important;
+}
+
+.navbar-nav .nav-link {
+    color: black !important;
+}
+
+/* Sección Hero */
+.hero-image {
+    background-image: url('../images/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #f1fbf8;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    height: 50%;
+    width: auto; 
+}
+
+/* Habilidades */
+.skills .display-4 {
+    color: #007bff;
+}
+
+.skills .col-md-4 {
+    margin-bottom: 20px;
+}
+
+/* Carrusel de Proyectos */
+.projects .carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+rgb(27, 87, 115).projects .card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.projects .card-title {
+    color: #007bff;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #f8f9fa;
+}
+
+.carousel-item img {
+    width: 160px;
+    height: auto;
+    object-fit: cover; /* Ajusta la imagen para llenar el contenedor mientras mantiene su proporción */
+    max-height: 270px; 
+}
+
+
+/* Formulario de Contacto */
+#contactForm .form-control {
+    border-radius: 0;
+}
+
+#contactForm button {
+    background-color: #007bff;
+    border: none;
+}
