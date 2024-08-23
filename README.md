@@ -16,20 +16,7 @@ Está desarrollado utilizando HTML5, CSS3, JavaScript y Bootstrap 5, asegurando 
 
 La estructura del proyecto es la siguiente:
 
-/developerPortafolioProject/public
-├── /css
-│   └── styles.css
-├── /images
-│   ├── favicon.ico
-│   ├── hero-bg.jpg
-│   ├── project1.jpg
-│   ├── project2.jpg
-│   └── project3.jpg
-├── /js
-│   └── script.js
-├── index.html
-└── README.md
-
+![Screen Shot 2024-08-23 at 2 16 48 AM](https://github.com/user-attachments/assets/1499da2f-d581-41b7-bf66-ac5fc011b5d8)
 
 - **index.html**: Archivo principal del portafolio web.
 - **css/styles.css**: Estilos personalizados para el diseño del portafolio.
